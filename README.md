@@ -31,5 +31,5 @@ $ Polygon $ : $ [[-3,2], [-2,-0.8], [0,1.2], [2.2,0], [2,4.5]]$
 $ P $ : $[0,0]$
 Output : False
 
- - NOTE: Solution inside of polygon_and_point folder
+ - NOTE: Solution of this problem is in `practice.py` file
  

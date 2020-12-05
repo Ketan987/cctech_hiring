@@ -34,8 +34,14 @@ $ Polygon $ : $ [[-3,2], [-2,-0.8], [0,1.2], [2.2,0], [2,4.5]]$
 $ P $ : $[0,0]$
 Output : False
 
- - NOTE: Solution of this problem is in `practice.py` file
+Solution: -
+ - NOTE: Solution of this problem is in `practice1.py` file
+ - In order to find answer to above solution, first divide polygon in multiple triangle.
+ - If area of triangle is equal to sum of all the areas of triangle formed by cansidering `point 'p'`.
+ - if the count is odd then point lies inside polygon or else not.
  
+ 
+ ---------------------------------------------------------------------
 
 # Question 2 : Calculate the surface of the building exposed to sunlight?
 
@@ -70,3 +76,7 @@ $ S $: $ [-3.5,1] $
 Output : to be calculated
 
 
+Solution: -
+- This problem is little bit unique we can cansider serval cases as like if sun is above building, sun is parallel to building on right side or left side depending upon position of sun.
+- I have considered two canditions.
+- Solution of this problem is in `practice2.py` file.
